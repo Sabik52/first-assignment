@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+h1{
+    font-size: 70px;
+    font-weight: 900; 
+    font-family: 'Merriweather', serif; 
+    
+}
+p{
+    padding-bottom: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.vertical-line{
+    border-left: thick solid;
+    height: 160px;
+    border-color: #490b3d;
+    
+}
+.flex-container{
+    display: flex;  
+    width: 80%;
+    margin: 5%;
+}
+.flex-child-right img{
+    width: 350px;  
+}
+.flex-child-left{
+    padding-right: 100px;
+}
+.mission-color{
+   color: #bd1e51;
+}
+.button{
+    text-decoration: none;
+    background-color: #1a2238;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+.down-content{
+    padding-top: 20px;
+
+}
