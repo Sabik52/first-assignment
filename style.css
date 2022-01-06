@@ -128,9 +128,13 @@ p{
 .about-section{
     display: flex;
     padding-right: 100px;
+    background-color: #566573 ;
+    padding: 100px;
+    text-align: center;
+    color: white;
 }
 footer{
-    margin-top: 100px;
+    margin-top: 0px;
     text-align: center;
     background-color: #090e27 ;
     color: white;
@@ -140,3 +144,4 @@ footer{
 #footer-year{
     color: rgb(255, 64, 50);
 }
+
