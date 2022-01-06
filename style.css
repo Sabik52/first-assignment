@@ -1,50 +1,137 @@
 body{
     margin: 0;
     padding: 0;
-    
-    
+   
 }
+
 h1{
     font-size: 70px;
     font-weight: 900; 
-    font-family: 'Merriweather', serif; 
-    
+    font-family: 'Merriweather', serif;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.mission-color{
+    color: #bd1e51;
+}
+h3{
+    font-size: 40px;
+    }
 p{
-    padding-bottom: 20px;
-    text-align: justify;
-    font-size: 20px;
-}
-.vertical-line{
-    border-left: thick solid;
-    height: 160px;
-    border-color: #490b3d;
-    
-}
+        padding-top: 0;
+        font-size: 30px;
+    }
 .flex-container{
-    display: flex;  
+    display: flex;
     width: 80%;
     margin: 5%;
 }
-.flex-child-right img{
-    width: 350px;  
+.flex-item1{
+    padding-right: 150px;
 }
-.flex-child-left{
-    padding-right: 100px;
+.flex-item1 .vertical-line{
+    border-left: thick solid;
+    height: 160px;
+    border-color: #490b3d;
 }
-.mission-color{
-   color: #bd1e51;
+.flex-item2 img{
+    width: 350px;
+    margin-left: 10px;
 }
 .button{
     text-decoration: none;
-    background-color: #1a2238;
-    padding: 10px 40px;
+    background-color: #4284f5;
+    padding: 20px 40px;
     color: white;
     font-weight: 600;
     border-radius: 5px;
-    
 }
-.down-content{
+.scroll-down{
     padding-top: 20px;
+}
 
+.mission-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #0d1324 ;
+}
+.year-clr{
+    color: #b02e94 ;
+}
+.mission-items{
+    display: flex; 
+    width: 80%;
+    padding: 20px;
+    margin: 5%;
+}
+.mission-image{
+    width: 200px;
+}
+.mission-item-1{
+    background-color: #D6EAF8 ;
+    
+    margin-right: 20px;
+    border-radius: 20px;   
+}
+.mission-item-2{
+    background-color: #F9EBEA;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.mission-item-3{
+    background-color: #FEF5E7 ;
+    
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.coding-section{
+    display: flex;
+    width: 80%;
+    margin: 5%;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+
+}
+.coding-image img{
+    width: 400px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.coding-content h1{
+    
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.comminity-banner{
+    display: flex;
+    width: 80%;
+    margin: 5%;
+    padding-bottom: 50px;
+    background-image: url(image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 250px;
+   
+}
+.about-section{
+    display: flex;
+    padding-right: 100px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #090e27 ;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#footer-year{
+    color: rgb(255, 64, 50);
 }
