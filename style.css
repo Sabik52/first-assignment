@@ -20,10 +20,12 @@ h2{
 }
 h3{
     font-size: 40px;
+    margin-left: 10px;
     }
 p{
-        padding-top: 0;
-        font-size: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    
     }
 .flex-container{
     display: flex;
@@ -50,6 +52,8 @@ p{
     font-weight: 700;
     border-radius: 5px;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 .scroll-down{
@@ -69,11 +73,9 @@ p{
     width: 80%;
     padding: 10px;
     margin: 5%;
-    
 }
 .mission-image{
     width: 200px;
-   
     
 }
 .mission-item-1{
