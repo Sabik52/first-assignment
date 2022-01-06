@@ -47,8 +47,10 @@ p{
     background-color: #4284f5;
     padding: 20px 40px;
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 5px;
+    font-size: 20px;
+    
 }
 .scroll-down{
     padding-top: 20px;
@@ -65,15 +67,17 @@ p{
 .mission-items{
     display: flex; 
     width: 80%;
-    padding: 20px;
+    padding: 10px;
     margin: 5%;
+    
 }
 .mission-image{
     width: 200px;
+   
+    
 }
 .mission-item-1{
     background-color: #D6EAF8 ;
-    
     margin-right: 20px;
     border-radius: 20px;   
 }
@@ -84,7 +88,6 @@ p{
 }
 .mission-item-3{
     background-color: #FEF5E7 ;
-    
     margin-right: 20px;
     border-radius: 20px;
 }
